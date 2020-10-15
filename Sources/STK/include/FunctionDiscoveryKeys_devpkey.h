@@ -39,6 +39,8 @@ Revision History:
 // _NAME
 //
 
+#ifdef _WIN32
+
 DEFINE_PROPERTYKEY(PKEY_NAME, 0xb725f130, 0x47ef, 0x101a, 0xa5, 0xf1, 0x02,
                    0x60, 0x8c, 0x9e, 0xeb, 0xac, 10); // DEVPROP_TYPE_STRING
 
@@ -415,3 +417,5 @@ DEFINE_PROPERTYKEY(PKEY_DeviceInterface_ClassGuid, 0x026e516e, 0xb814, 0x414b,
 DEFINE_PROPERTYKEY(PKEY_DeviceInterfaceClass_DefaultInterface, 0x14c83a99,
                    0x0b3f, 0x44b7, 0xbe, 0x4c, 0xa1, 0x78, 0xd3, 0x99, 0x05,
                    0x64, 2); // DEVPROP_TYPE_STRING
+
+#endif

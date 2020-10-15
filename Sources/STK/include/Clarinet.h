@@ -7,6 +7,7 @@
 #include "OneZero.h"
 #include "ReedTable.h"
 #include "SineWave.h"
+#include "SKINImsg.h"
 
 namespace stk {
 

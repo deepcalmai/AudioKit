@@ -23,7 +23,7 @@
 /***************************************************/
 
 #include "Clarinet.h"
-#include "SKINImsg.h"
+
 
 namespace stk {
 

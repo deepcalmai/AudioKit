@@ -1,3 +1,5 @@
+#ifndef STK_SKINITBL_H
+#define STK_SKINITBL_H
 
 #include "SKINImsg.h"
 
@@ -131,3 +133,5 @@ struct SkiniSpec skini_msgs[__SK_MaxMsgTypes_] = {
 /*************************************************************************/
 
 } // stk namespace
+
+#endif

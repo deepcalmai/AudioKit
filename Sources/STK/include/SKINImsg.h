@@ -1,3 +1,6 @@
+#ifndef STK_SKINIMSG_H
+#define STK_SKINIMSG_H
+
 /*********************************************************/
 /*
   Definition of SKINI Message Types and Special Symbols
@@ -127,3 +130,5 @@ namespace stk {
 #define __SK_SINGER_VibFreq_ __SK_Expression_
 
 }
+
+#endif

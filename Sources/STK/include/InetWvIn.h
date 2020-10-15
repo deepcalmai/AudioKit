@@ -2,9 +2,9 @@
 #define STK_INETWVIN_H
 
 #include "Mutex.h"
-#include "TcpServer.h"
+
 #include "Thread.h"
-#include "UdpSocket.h"
+
 #include "WvIn.h"
 
 namespace stk {

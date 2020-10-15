@@ -1,8 +1,6 @@
 // Copyright AudioKit. All Rights Reserved. Revision History at http://github.com/AudioKit/AudioKit/
 
-#import "STKInstrumentDSP.hpp"
-
-#include "Clarinet.h"
+#import "ClarinetDSP.hpp"
 
 class ClarinetDSP : public STKInstrumentDSP {
 private:
